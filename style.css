@@ -1,0 +1,147 @@
+@font-face {
+    font-family: comfortaa;
+    src: url(Comfortaa-VariableFont_wght.ttf);
+}
+
+@media screen and (max-width: 1280px) {
+    
+}
+
+body {
+    background-color: #778899 ;
+}
+
+#top {
+    background-color: #DCDCDC ;
+    border-radius: 15px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#txt {
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    font-size: 75px;
+    font-family: comfortaa;
+    
+    padding-left: 20px;
+    
+}
+
+#sub {
+    font-size: 50px;
+    font-family: comfortaa;
+  
+    padding-left: 120px;
+    
+}
+
+#illustration {
+    width: 500px;
+    border-radius: 20px ;
+    margin-top: 30px;
+    
+    
+    
+    
+}
+
+
+#title {
+    font-size: 50px;
+    font-family: comfortaa;
+    display: flex;
+    justify-content: center;
+}
+
+#images1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+
+#work1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 4px 0 0 4px;
+    box-shadow: 0 0 0 4px #B2FFFF;
+}
+
+#work2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 4px 0 0 4px;
+    box-shadow: 0 0 0 4px #B2FFFF;
+}
+
+#work3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 4px 0 0 4px;
+    box-shadow: 0 0 0 4px #B2FFFF;
+}
+
+#work1:hover {
+    transform: scale(1.05);
+}
+
+#work2:hover {
+    transform: scale(1.05);
+}
+
+#work3:hover {
+    transform: scale(1.05);
+}
+
+#footer {
+    font-family: comfortaa;
+    font-size: 20px;
+    background-color: #DCDCDC;
+    
+}
+
+#txtfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    
+}
+a:visited {
+    color: black;
+}
+
+#git:hover {
+    color:#24b3b3;
+    transform: scale(1.1)
+}
+
+#linkedin:hover {
+    color:#24b3b3;
+    transform: scale(1.1)
+}
+
+#cv:hover {
+    color:#24b3b3;
+    transform: scale(1.1)
+}
+
+#whoiam:hover {
+    color:#24b3b3;
+    transform: scale(1.1)
+}
