@@ -1,0 +1,53 @@
+@font-face {
+    font-family: comfortaa;
+    src: url(Comfortaa-VariableFont_wght.ttf);
+}
+
+#top {
+    background-color: gray;
+    border-radius: 15px;
+    max-height: 500px;
+}
+
+#txt {
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    font-size: 75px;
+    font-family: comfortaa;
+    
+    padding-left: 20px;
+    
+}
+
+#sub {
+    font-size: 50px;
+    font-family: comfortaa;
+  
+    padding-left: 120px;
+    
+}
+
+#illustration {
+    width: 500px;
+    border-radius: 20px ;
+    
+    
+    
+    
+}
+
+#illu {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 35px;
+    left: 900px;
+   
+}
+
+#title {
+    font-size: 50px;
+}
